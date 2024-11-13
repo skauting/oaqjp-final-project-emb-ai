@@ -14,8 +14,7 @@ def run_emotion_detection():
     """
     Main function to run the Emotion Detection application.
     """
-    app.run(host="0.0.0.0", port=5000)
-
+    app.run(host="0.0.0.0", port=5001)
 @app.route("/emotionDetector")
 def sent_detector():
     """
